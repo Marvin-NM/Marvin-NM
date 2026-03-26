@@ -12,16 +12,14 @@ Ce profil GitHub sert de **vitrine** à mes travaux : homelab, writeups, rapport
 
 - `AD-Attack-Lab` 
 \___[ Simulation d’attaque / défense sur domaine Active Directory ] 
-\___Stack : Windows, GPO, ELK, detection rules 
+\___Stack : Windows, GPO, Wazuh, detection rules 
 
 - `Malware-Analysis-Suite` 
-\___[ Automatisation & scripts d’analyse (YARA, sandboxing, extraction d’IOCs) ] 
+\___[ Automatisation & scripts d’analyse (YARA, sandboxing, extraction d’IOCs) ]
 
-- `Reverse-Challenges` 
-\___[ Writeups & binaires pour pratiquer le reverse engineering ] 
+- `Lab Splunk` 
+\___[ Déploiement d'une instance local Splunk et entrainemet sur dataset Bots ] 
 
-- `Forensic-Playbooks` 
-\___[ Cas d’étude post-compromission, investigations, corrélations de logs ] 
 
 *(D’autres projets arriveront au fur et à mesure.)*
 
@@ -29,10 +27,10 @@ Ce profil GitHub sert de **vitrine** à mes travaux : homelab, writeups, rapport
 
 ## 🧠 Homelab & stack exposée
 
-Mon lab métier / red team inclut :
+Mon lab métier / Purple team inclut :
 
 - Active Directory + domaine Windows 
-- ELK (Elasticsearch / Logstash / Kibana) pour centralisation et détection 
+- Wazuh pour centralisation et détection 
 - REMnux, FLARE VM pour l’analyse de malware sous Windows / Linux 
 - Tsurugi Linux (outils forensic) 
 - Kali Linux pour les opérations offensives 
@@ -42,14 +40,14 @@ Mon lab métier / red team inclut :
 
 ## 🛠️ Compétences & outils
 
-**Langages & scripting :** C, C++, C#, Python, Bash 
+**Langages & scripting :** C, C++, C#, Python, Bash, Powershell
 **OS / environnements :** Windows, Linux (Kali, Tsurugi), Docker 
 **Domaines :** Reverse engineering, Pentest, Forensic, Red Team ops 
 
 **Outils clés :** 
 - RE : Ghidra, IDA, x64dbg 
 - Analyse malware : REMnux, FLARE VM, Cuckoo 
-- Pentest / offense : Metasploit, BloodHound, Empire, CALDERA 
+- Pentest / offense : Metasploit, BloodHound, CALDERA 
 - Forensic / logs : Volatility, Wireshark, ELK 
 
 ---
